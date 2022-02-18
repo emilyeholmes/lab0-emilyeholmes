@@ -1,0 +1,257 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+
+  .eagle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .eagle {
+    max-block-size:50%;
+    padding-top: 70px;
+    background-clip: content-box;
+  }
+
+  .row1 {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .row .row1col1 {
+    flex: 1;
+    background-color: royalblue;
+    padding-top: 7%;
+    max-width: 18%;
+  }
+
+  .row .row1col2 {
+    flex: 1;
+    background-color: white;
+    padding-top: 7%;
+    max-width: 7%;
+  }
+
+  .row {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .row .row2col1 {
+    flex: 1;
+    background-color: royalblue;
+    padding-top: 6.4%;
+    max-width: 15.5%;
+  }
+
+  .row .row2col3 {
+    flex: 1;
+    background-color: white;
+    padding-top: 6.4%;
+    max-width: 65%;
+  }
+
+  .row .row3col1 {
+    flex: 1;
+    background-color: white;
+    padding-top: 6.4%;
+    max-width: 38%;
+  }
+
+  .row .row3col2 {
+    flex: 1;
+    background-color: royalblue;
+    padding-top: 6.4%;
+    max-width: 65%;
+  }
+
+  .row .whiterow {
+    flex: 1;
+    background-color: white;
+    padding-top: 6.4%;
+    max-width: 100%;
+  }
+
+  .row .bluerow {
+    flex: 1;
+    background-color: royalblue;
+    padding-top: 6.4%;
+    max-width: 100%;
+  }
+
+
+  .greece-container {
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+  }
+
+/*
+  .greece-container .greece-col {
+    position: absolute;
+    z-index: 1;
+    background-color: royalblue;
+    padding-top: 8rem;
+    margin-right: 20rem;
+  }
+
+  .greece-container .col {
+    background-color: white;
+  }
+
+  .greece-container .row {
+    background-color: white;
+  }
+ */
+
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  /* .greece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .greece div {
+    width: 100px;
+    height: 100px;
+  }
+
+  .greece-container .greece {
+    z-index: 1000;
+    position:relative;
+    height: 11.1%;
+  }
+
+  .smallgreece {
+    max-block-size: 23%;
+    
+    /* z-index: 1;
+    position:absolute;
+    height: 22.5%;
+    width: 15%; */
+  /* }
+
+  .crossvert {
+    z-index: 2;
+    position:absolute;
+    left: 555px;
+    height: 23%;
+    width: 2.5%;
+  }
+
+  .crosshor {
+    z-index: 3;
+    position:absolute;
+    left: 470px;
+    top: 2432px;
+    height: 4.5%;
+    width: 15%;
+  } */
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+  .royalblue {
+    background-color: royalblue;
+  }
