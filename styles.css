@@ -41,33 +41,6 @@
     overflow:hidden;
   }
 
-  .eaglerow {
-    display:flex;
-    flex-direction: row;
-  }
-
-  .eaglecol1 {
-    display:flex;
-    flex:1;
-    background-color: green;
-    padding-top: 33%;
-    max-width: 33%;
-  }
-
-  .eaglecol2 {
-    display:flex;
-    background-color: white;
-    padding-top: 33%;
-    max-width: 33%;
-  }
-
-  .eaglecol3 {
-    display: flex;
-    background-color: red;
-    padding-top: 33%;
-    max-width: 33%;
-  }
-
   .row .row1col1 {
     flex: 1;
     background-color: royalblue;
